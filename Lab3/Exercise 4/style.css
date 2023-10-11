@@ -1,0 +1,13 @@
+
+header {
+    background-color: cornflowerblue;
+    height: 50px;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 25px;
+    color: white;
+    margin: 0px;
+    text-align: center;
+}
