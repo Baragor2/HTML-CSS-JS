@@ -1,21 +1,29 @@
-div {
-    background-color: #ddd;
+nav{
     text-align: center;
-    width: 40px;
-    height: 40px;
+}
+
+div {
+    display: inline-block;
 }
 
 a {
-    line-height: 40px;
+    background-color: #ddd;
     color: #333;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 5px 3px;
     text-decoration: none;
+    float: left;
+    text-align: center;
+
 }
 
-div:active {
+a:hover {
+    background-color: #ccc;
+}
+
+.navigation a:active {
     background-color: #d10953;
     color: #fff;
-}
-
-div:hover {
-    background-color: #ccc;
 }
