@@ -1,0 +1,21 @@
+div {
+    background-color: #ddd;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+}
+
+a {
+    line-height: 40px;
+    color: #d10953;
+    text-decoration: none;
+}
+
+div:active {
+    background-color: ;
+    color: #fff;
+}
+
+div:hover {
+    background-color: #ccc;
+}
