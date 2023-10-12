@@ -23,16 +23,18 @@ ul {
 	position: absolute;
 	display: flex;
 	flex-direction: column;
-	background-color:#444;
+	background-color: #444;
 	width: 100%;
 }
 
 .li-vipad {
 	position: relative;
+	background-color: #333;
 }
 
 .li-vipad:hover .vipad {
 	visibility: visible;
+	background-color: #333;
 }
 .nav {
 	display: flex;
