@@ -1,0 +1,60 @@
+body {
+    margin: 0px;
+}
+
+.background {
+    position: absolute; 
+    height: 400px;
+    width: 600px;
+    top: 0px;
+    left: 0px;
+}
+
+.planet-1 {
+    position: relative;
+    top: -80px;
+    left: 180px;
+    z-index: 1;
+}
+
+.planet-2 {
+    position: relative;
+    top: 20px;
+    left: -60px;
+    z-index: 2;
+}
+
+.raketa {
+    position: relative;
+    top: -40px;
+    left: -400px;
+    z-index: 3;
+}
+
+.planet-3 {
+    position: relative;
+    top: 150px;
+    left: -170px;
+    z-index: 4;
+}
+
+.nlo {
+    position: relative;
+    top: 120px;
+    left: -470px;
+    z-index: 5;
+}
+
+.kamen {
+    position: relative;
+    top: -70px;
+    left: -230px;
+    z-index: 5;
+}
+
+.superman {
+    position: relative;
+    top: 159px;
+    left: -230px;
+    z-index: 5;
+}
