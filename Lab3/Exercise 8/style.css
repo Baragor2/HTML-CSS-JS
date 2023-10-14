@@ -1,0 +1,35 @@
+a {
+    color: #0b56ea;
+    text-decoration: none;
+}
+
+span {
+    color: #333;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+	display: flex;
+	list-style-type:none;
+	position: absolute;
+}
+
+li:not(:last-child)::after {
+    content: "\003E";
+    color: #333;
+    margin: 5px;
+    text-decoration: none;
+}
+
+a::after:hover {
+    text-decoration: none;
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+    font-size: 30px;
+}

@@ -1,0 +1,42 @@
+.nav-osn {
+	background-color:#444;
+	height: 30px;
+	line-height: 30px;
+}
+
+a, span {
+	text-decoration: none;
+	color: #fff;
+	margin:10px;
+}
+
+ul {
+	display: flex;
+	list-style-type:none;
+	position: absolute;
+	padding-left: 0;
+}
+
+.vipad {
+	visibility: hidden;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	background-color: #444;
+	width: 100%;
+}
+
+.li-vipad {
+	position: relative;
+	background-color: #333;
+}
+
+.li-vipad:hover .vipad {
+	visibility: visible;
+	background-color: #333;
+}
+
+.nav {
+	display: flex;
+	justify-content: center;
+}
