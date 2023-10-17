@@ -1,16 +1,22 @@
-div {
-    border: 1px solid black;
+textarea {
+    width: 300px;
+    height: 150px;
+    margin-bottom: 50px;
 }
 
 .both {
     resize: both;
+    overflow: hidden;
 }
 .none {
     resize: none;
+    overflow: hidden;
 }
 .horizontal {
     resize: horizontal;
+    overflow: hidden;
 }
 .vertical {
     resize: vertical;
+    overflow: hidden;
 }

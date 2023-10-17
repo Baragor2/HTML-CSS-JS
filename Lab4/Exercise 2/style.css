@@ -1,0 +1,23 @@
+div {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 50px;
+    border: solid 1px black;
+}
+
+p {
+    margin: 0px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+.progress {
+    cursor: progress;
+}
+.wait {
+    cursor: wait;
+}
+.ballon {
+    cursor: url('art.png'), default;
+}
