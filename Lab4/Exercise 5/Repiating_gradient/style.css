@@ -1,0 +1,20 @@
+div {
+    border: solid 2px black;
+    margin: 10px;
+    width: 300px;
+}
+
+.bottom {
+    height: 100px;
+    background: repeating-linear-gradient(to bottom, black, black 5px,  white 5px, white 10px);
+}
+
+.fort_five {
+    height: 20px;
+    background: repeating-linear-gradient(45deg, red, red 3px,  white 3px, white 6px);
+}
+
+.circle {
+    height: 300px;
+    background: repeating-radial-gradient(black, black 4px,  white 4px, white 8px);
+}
