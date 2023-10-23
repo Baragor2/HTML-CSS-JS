@@ -1,0 +1,36 @@
+div {
+    display: inline-block;
+    margin: 10px;
+}
+
+img {
+    width: 200px;
+}
+
+p {
+    margin: 0px;
+}
+
+.grayscale {
+    filter: grayscale();
+}
+
+.sepia {
+    filter: sepia();
+}
+
+.saturate {
+    filter: saturate(40%);
+}
+
+.hue-rotate {
+    filter: hue-rotate(90deg);
+}
+
+.invert {
+    filter: invert();
+}
+
+.contrast {
+    filter: contrast(40%);
+}

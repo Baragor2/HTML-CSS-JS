@@ -1,0 +1,34 @@
+div {
+    border: solid 2px brown;
+    display: inline-block;
+    margin: 10px;
+}
+
+.bottom, .right, .left {
+    width: 300px;
+    height: 300px;
+
+}
+
+.rbr, .dif {
+    width: 464px;
+    height: 200px;
+}
+
+.bottom {
+    background: linear-gradient(to bottom, #c7a91f, #ffffff);
+}
+
+.right {
+    background: linear-gradient(to right, #c7a91f, #ffffff);
+}
+
+.left {
+    background: linear-gradient(to left, #c7a91f, #ffffff);
+}
+.rbr {
+    background: linear-gradient(to bottom, red 33%, white 33%, white 66%, red 66%);
+}
+.dif {
+    background: linear-gradient(to right, red 10%,  #7700ff 20%, #5599e6 80%, white 90%, red 100%);
+}

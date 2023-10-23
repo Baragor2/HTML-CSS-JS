@@ -1,0 +1,26 @@
+.shadow {
+    text-shadow: 10px 13px #abbbca;
+}
+
+.shadow_razm {
+    text-shadow: 10px 13px 2px #abbbca;
+}
+
+.two_shadows {
+    text-shadow: 10px 7px 2px blue, 2px -5px 2px red;
+}
+
+.vdavl {
+    color: #84b481;
+    text-shadow: 1px 1px white, -0.3px -0.3px #333;
+}
+
+.obem {
+    color: #84b481;
+    text-shadow: -1px -1px white, 0.3px 0.3px #333;
+}
+
+.kontur {
+    color: #84b481;
+    text-shadow: -0.3px 0px black, 0px 0.3px black, 0.3px 0px black, 0px -0.3px black;
+}

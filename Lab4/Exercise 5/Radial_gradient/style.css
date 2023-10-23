@@ -1,0 +1,27 @@
+div {
+    border: solid 2px brown;
+    display: inline-block;
+    margin: 10px;
+    height: 300px;
+}
+
+.circle {
+    width: 300px;
+    background: radial-gradient(#ffffff, #1900ff);
+}
+
+.ellipse, .ugl_circle, .green_circle{
+    width: 600px;
+}
+
+.ellipse {
+    background: radial-gradient(ellipse, white, #1900ff);
+}
+
+.ugl_circle {
+    background: radial-gradient(closest-side at 70px 70px, white, #1900ff);
+}
+
+.green_circle {
+    background: radial-gradient(circle, black 20px, white 40px, white 50px, green 50px);
+}

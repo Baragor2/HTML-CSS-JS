@@ -1,0 +1,22 @@
+div {
+    border: solid 2px brown;
+    margin: 100px;
+    width: 200px;
+    height: 200px;
+}
+
+p {
+    margin: 0px;
+}
+
+.shadow_razm {
+    box-shadow: 30px 30px 15px rgb(151, 126, 126);
+}
+
+.two_shadows {
+    box-shadow: 30px 30px 15px rgb(151, 126, 126), -30px -30px 15px rgb(151, 126, 126);
+}
+
+.vnutr {
+    box-shadow: inset 5px 5px 10px rgb(151, 126, 126);
+}
