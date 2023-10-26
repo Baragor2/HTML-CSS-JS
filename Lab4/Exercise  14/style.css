@@ -1,0 +1,140 @@
+.bg {
+    background-color: lightblue;
+    position: relative;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    z-index: 0;
+}
+
+.house {
+    background-color: white;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    top: 280px;
+    left: 150px;
+    width: 300px;
+    height: 80px;
+    z-index: 2;
+}
+
+.tower {
+    background-color: white;
+    position: absolute;
+    top: 140px;
+    left: 80px;
+    width: 70px;
+    height: 220px;
+    z-index: 2;
+}
+
+.window, .tower::after {
+    background-color: darkslategray;
+    width: 28px;
+    height: 38px;
+    margin: 10px;
+}
+
+#white_wind {
+    background-color: white;
+}
+
+.house::before {
+    top: -40px;
+    border-left: 300px solid brown;
+    border-right: 50px solid lightblue;
+    border-bottom: 40px solid brown;
+}
+
+.house::after {
+    top: -80px;
+    left: 0px;
+    width: 250px;
+    height: 40px;
+    background-color: brown;
+}
+
+.tower::after, .tower::before, .house::after, .house::before {
+    content: "";
+    position: absolute;
+}
+
+.tower::before {
+    top: -50px;
+    border-left: 35px solid lightblue;
+    border-right: 35px solid lightblue;
+    border-bottom: 50px solid brown;
+}
+
+.tower::after {
+    top: 10px;
+    left: 10px;
+}
+
+.cloud_1, .cloud_2, .cloud_3 {
+    background-color: white;
+    position: absolute;
+    border-radius: 100px 100px 0 0;
+    width: 60px;
+    height: 30px;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    z-index: 1;
+}
+
+.cloud_1 {
+    left: 200px;
+    top: 140px;
+    animation-name: cloud1_move;
+    animation-duration: 12s;
+}
+
+.cloud_2 {
+    left: 370px;
+    top: 135px;
+    animation-name: cloud2_move;
+    animation-duration: 10s;
+}
+
+.cloud_3 {
+    left: 170px;
+    top: 55px;
+    animation-name: cloud3_move;
+    animation-duration: 14s;
+}
+
+.cloud_2::before, .cloud_3::before {
+    content: '';
+    background-color: white;
+    position: absolute;
+    border-radius: 100px 100px 0 0;
+    width: 100px;
+    height: 20px;
+}
+
+.cloud_2::before {
+    left: -39px;
+    top: 15px;
+}
+
+.cloud_3::before {
+    left: -1px;
+    top: 15px;
+}
+
+@keyframes cloud1_move {
+    from {left: -500px;}
+    to {left: 600px;}
+}
+
+@keyframes cloud2_move {
+    from {left: -500px;}
+    to {left: 600px;}
+}
+
+@keyframes cloud3_move {
+    from {left: -500px;}
+    to {left: 600px;}
+}
