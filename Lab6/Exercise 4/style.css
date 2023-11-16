@@ -1,0 +1,12 @@
+.cont {
+    display: flex;
+    align-items: center;
+}
+
+p {
+    margin: 5px;
+}
+
+button {
+    margin-top: 10px;
+}
