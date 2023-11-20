@@ -8,8 +8,14 @@
 </head>
 <body>
     <main>
-        <input type="text" id="my_input" oninput="func()">
-        <p id="my_p"></p>
+        <p id="title">Прогресс-бар</p>
+        <div class="prog">
+            <progress max="100" value="0" id="progress_bar"></progress>
+            <p id="procent">0</p>
+            <p>%</p>
+            <p id="maxim"></p>
+        </div>
+        <button>Увеличить значение</button>
     </main>
     <script src="script.js"></script>
 </body>
