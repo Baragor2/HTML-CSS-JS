@@ -1,0 +1,463 @@
+body {
+    margin: 0px;
+}
+
+h1, h2, p, li, a {
+    font-family: Roboto;
+    font-style: normal;
+}
+
+header {
+    width: 100%;
+    height: 100%; 
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.logo_wrap {
+    width: 230px;
+    height: 85px;
+    flex-shrink: 0;
+}
+
+.logo {
+    width: 195px;
+    height: 39px;
+    flex-shrink: 0;
+    padding: 23px 1px 23px 34px;
+}
+
+nav, a {
+    color: #00402F;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+nav {
+    display: flex;
+    align-content: center;
+    justify-content: end;
+    flex-direction: row;
+    width: 990px;
+    height: 85px;
+    flex-shrink: 0;
+    line-height: 22px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 20px;
+}
+
+li {
+    padding: 0px 30px;
+}
+
+.login {
+    border-left: solid gray 1px;
+}
+
+.nav_div {
+    display: flex;
+    padding-right: 20px;
+}
+
+.sign {
+    display: flex;
+    align-content: center;
+    justify-content: end;
+    background-color: #00402F;
+}
+
+li a {
+    text-decoration: none;
+}
+
+.sign a, main a{
+    text-decoration: none;
+    display: flex;
+    align-self: center;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.start {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: #668C82;
+    height: 697px;
+    justify-items: center;
+}
+
+.ph1 {
+    width: 546px;
+    height: 547px;
+    padding: 80px 0px 70px 145px;
+}
+
+.art1_text h1, .art1_text p {
+    color: #FFF;
+} 
+
+.art1_text h1 {
+    font-weight: 400;
+    line-height: 53px;
+    font-size: 61px;
+    width: 344px;
+}
+
+.art1_text p, .first_p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.art1_text {
+    padding: 80px 145.5px 69.84px 0px;
+}
+
+.first_p_div {
+    width: 516px;
+    padding-bottom: 19px;
+}
+
+.h2_div {
+    display: inline-flex;
+    height: 177px;
+    padding: 0px 87.5px 0px 24.75px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+    flex-shrink: 0;
+}
+
+#but_art1 {
+    color: #00402F;
+    background-color: white;
+    width: 154px;
+}
+
+.mission {
+    background: #849ACB;
+    height: 662px;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.1fr;
+    justify-items: center;
+}
+
+.p_mission {
+    color: white;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 4.3px;
+    text-transform: uppercase;
+    margin: 70.84px 0px 33px 13px;
+    margin-bottom: 33px;
+}
+
+.art2_text {
+    padding: 70.16px 0px 74.83px 145px;
+}
+
+.art2_text h2 {
+    color: #FFF;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 51px; 
+    letter-spacing: 0.3px;
+    width: 549px;
+}
+
+.get_started {
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 10px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    width: 165px;
+    height: 10px;
+    border: solid white 2px;
+    border-radius: 50px;
+    justify-content: center;
+    background-color: #849ACB;
+    padding: 5px;
+    margin-top: 70px;
+    margin-left: 25px;
+}
+
+.ph2 {
+    width: 546px;
+    height: 547px;
+    padding: 70px 0px 75px 0px;
+}
+
+.infinity1 {
+    margin: 334px 41px 331px 74px;
+}
+
+.art3 {
+    background: #FFF4E3;
+    height: 662px;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+.ph3 {
+    width: 440px;
+    height: 468px;
+    padding: 80px 0px 80px 155px;
+}
+
+.art3_text h1 {
+    color: #00402F;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 55px;
+    width: 605px;
+    padding: 111px 172px 0px 0px;
+}
+
+.p3_div {
+    color: #00402F;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22.4px;
+    width: 615px;
+}
+
+#join {
+    color: #FFF;
+    background: #00402F;
+    width: 238px;
+}
+
+#join, #but_art1 {
+    border: none;
+    border-radius: 50px;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 0px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    flex-shrink: 0;
+    margin-top: 40px;
+    padding: 12px;
+}
+
+.art4 {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    background-color: #FFF;
+    height: 627px;
+}
+
+.art4 h2, .art4 p {
+    color: #00402F;
+    text-align: center;
+    font-weight: 400;
+}
+
+.art4 h2 {
+    font-size: 50px;
+    line-height: 65px;
+    width: 901px;
+    padding-top: 82px;
+}
+
+.art4 p {
+    font-size: 13px;
+    margin: 0px;
+}
+
+.founder {
+    width: 120px;
+    height: 94px;
+}
+
+.art5, .art6, .art7 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: #FFF;
+    height: 662px;
+    margin: 0px;
+    justify-items: center;
+}
+
+.comments {
+    width: 566px;
+    height: 524px;  
+    padding: 21px 0px 0px 155px;
+}
+
+.art5 h2, .art6 h2, .art7 h2 {
+    color: #00402F;
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+
+.art5 h2 {
+    width: 368px;
+}
+
+.art5_text, .art6_text, .art7_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.p5_div, .p6_div, .p7_div {
+    color: #00402F;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.p5_div {
+    width: 502px;
+}
+
+.infinity_div {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 100px;
+}
+
+#infinity {
+    justify-self: center;
+    width: 32px;
+    height: 18px;
+}
+
+.art6 h2 {
+    width: 493px;
+}
+
+.p6_div {
+    width: 494px;
+}
+
+.rsvp {
+    width: 595px;
+    height: 649px;
+}
+
+.art7 h2 {
+    width: 439px;
+}
+
+.p7_div {
+    width: 487px;
+}
+
+.paragraph {
+    justify-self: center;
+}
+
+.testimonials {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    background-color: #FFF4E3;
+    height: 666px;
+}
+
+.testimonials h2 {
+    color: #00402F;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 400;
+    padding-top: 82px;
+}
+
+.testimonials img {
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 321px;
+    height: 361px;
+}
+
+.forum {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    background-color: #522840;
+    height: 647px;
+}
+
+.forum p {
+    color: #FFF;
+    text-align: center;
+    font-size: 34px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    width: 818px;
+    padding-top: 30px;
+}
+
+.big_infinity {
+    padding-top: 110px;
+    padding-bottom: 30px;
+}
+
+.forum a {
+    margin-bottom: 122px;
+}
+
+footer {
+    height: 267px;
+}
+
+.teleg_policy {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    padding-top: 70.44px;
+}
+
+#teleg {
+    color: #00402F;
+    font-size: 19px;
+    font-weight: 400; 
+}
+
+#policy {
+    color: #00402F;
+    text-align: right;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.phones p {
+    width: 360px;
+    color: #00402F;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0px;
+    text-align: end;
+}
+
+#f_p {
+    text-align: start;
+}
+
+.phones {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    margin-top: 20.56px;
+}
