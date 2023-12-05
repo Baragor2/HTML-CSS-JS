@@ -1,0 +1,94 @@
+body {
+    background-color: lightblue;
+}
+
+main {
+    position: absolute;
+    left: 300px;
+    /* animation-name: all_move;
+    animation-duration: 20s; */
+}
+
+button {
+    position: relative;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(69, 69, 251);
+    color: white;
+    padding: 30px 35px;
+    font-size: 18px;
+    width: 250px;
+    top: 350px;
+    left: 300px;
+    /* animation-name: but_rad;
+    animation-duration: 2s; */
+}
+
+#palka {
+    position: relative;
+    border: none;
+    background-color: rgb(69, 69, 251);
+    top: 480px;
+    left: 340px;
+    width: 150px;
+    height: 10px;
+}
+
+
+#tryapka1{
+    position: relative;
+    transform: scale(1, 0.001);
+    top: 405px;
+    left: 335px;
+    width: 0px;
+    background-color: white;
+    border-left: 70px solid lightblue;
+    border-bottom: 60px solid transparent;
+}
+
+#tryapka2{
+    position: relative;
+    transform: scale(1, 0.001);
+    top: 345px;
+    left: 425px;
+    width: 0px;
+    background-color: white;
+    border-right: 50px solid lightblue;
+    border-bottom: 60px solid transparent;
+}
+
+@keyframes but_rad {
+    from {
+        border-radius: 7px;
+    }
+    to {
+        border-radius: 7px 7px 100px 100px;
+    }
+}
+
+@keyframes all_move {
+    from {
+        left: 300px;
+    }
+    to {
+        left: 1500px;
+    }
+}
+
+@keyframes palka_rot {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(90deg);
+    }
+}
+
+@keyframes tryapka_trans {
+    from {
+        transform: scale(1, 0.001)
+    }
+    to {
+        transform: scale(1, 1)
+    }
+}
