@@ -5,8 +5,11 @@ body {
 main {
     position: absolute;
     left: 300px;
+<<<<<<< HEAD
     /* animation-name: all_move;
     animation-duration: 20s; */
+=======
+>>>>>>> 370ac0e597ed663bcb5f51467bc56b156f8286b4
 }
 
 button {
@@ -20,8 +23,11 @@ button {
     width: 250px;
     top: 350px;
     left: 300px;
+<<<<<<< HEAD
     /* animation-name: but_rad;
     animation-duration: 2s; */
+=======
+>>>>>>> 370ac0e597ed663bcb5f51467bc56b156f8286b4
 }
 
 #palka {
@@ -71,7 +77,11 @@ button {
         left: 300px;
     }
     to {
+<<<<<<< HEAD
         left: 1500px;
+=======
+        left: 2000px;
+>>>>>>> 370ac0e597ed663bcb5f51467bc56b156f8286b4
     }
 }
 
